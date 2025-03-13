@@ -12,6 +12,11 @@
 ```
 python -m venv n2025
 ```
+เปิด และ ปิด
+```
+n2025\Scripts\activate
+n2025\Scripts\deactivate
+```
 การเตรียมการ
 ```
 pip install streamlit httpx fastapi
