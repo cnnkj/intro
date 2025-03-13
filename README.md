@@ -8,10 +8,15 @@
 * Consensus
 
 ## nectec
+การ สร้าง virtual env
+```
+python -m venv n2025
+```
 การเตรียมการ
 ```
 pip install streamlit httpx fastapi
 ```
+การเก็บข้อมูล lib ที่จำเป็นและเตรียม deploy
 ```
 pip freeze > requirements.txt
 ```
